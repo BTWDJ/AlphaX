@@ -220,8 +220,11 @@ def start(update: Update, context: CallbackContext):
             x.delete()
             usr = update.effective_user
             lol = update.effective_message.reply_text(
-                PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN)
-            timeout=60,
+                PM_START_TEXT.format(usr.first_name, BOT_NAME),
+                reply_markup=InlineKeyboardMarkup(buttons),
+                parse_mode=ParseMode.MARKDOWN,
+                timeout=60,
+            )
            
     else:
         update.effective_message.reply_photo(
