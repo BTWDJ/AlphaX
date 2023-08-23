@@ -222,7 +222,7 @@ def start(update: Update, context: CallbackContext):
             lol = update.effective_message.reply_text(
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN)
             timeout=60,
-            )
+           
     else:
         update.effective_message.reply_photo(
             START_IMG,
