@@ -90,7 +90,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="❣ Aᴅᴅ Mᴇ Bᴀʙʏ ❣",
+            text="❣Aᴅᴅ Mᴇ Bᴀʙʏ❣",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
@@ -99,11 +99,11 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🏡 ᴍʏ ɪɴғᴏ 🏡", callback_data="mukesh_"),
-        InlineKeyboardButton(text="✨ sᴏᴜʀᴄᴇ ✨", callback_data="source_"),
+        InlineKeyboardButton(text="🌹 ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ 🌹", url=f"tg://user?id={OWNER_ID}"),
      ],
      [  
-         InlineKeyboardButton(text="ʙᴀᴄᴋ ↻", callback_data="mukesh_back"),
-         InlineKeyboardButton(text="🌹 ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ 🌹", url=f"tg://user?id={OWNER_ID}"),
+         InlineKeyboardButton(text="▶︎ʙᴀᴄᴋ◀︎", callback_data="mukesh_back"),
+         InlineKeyboardButton(text="✨ sᴏᴜʀᴄᴇ ✨", callback_data="source_"),
      ],
 
 ]
@@ -393,7 +393,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="👉 ʙᴀᴄᴋ 👈", callback_data="mukesh_back"),
+                        InlineKeyboardButton(text="▶︎ʙᴀᴄᴋ◀︎", callback_data="mukesh_back"),
                     ],
                 ]
             ),
@@ -417,11 +417,11 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                             text="🌹 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🌹", url="https://t.me/ll_DJ_ll"
                         ),
                         InlineKeyboardButton(
-                            text="💫 ɢɪᴛʜᴜʙ 💫", url="https://te.legra.ph/file/b6b176848aba2019732ac.jpg"
+                            text="💫 ɢɪᴛʜᴜʙ 💫", url=f"https://github.com/Noob-Mukesh"
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="👉 ʙᴀᴄᴋ 👈", callback_data="mukesh_"),
+                        InlineKeyboardButton(text="▶︎ʙᴀᴄᴋ◀︎", callback_data="mukesh_"),
                     ],
                 ]
             ),
@@ -794,13 +794,13 @@ def get_help(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ᴏᴩᴇɴ ɪɴ ᴩʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ  👉",
+                            text="ᴏᴩᴇɴ ɪɴ ᴩʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ ➟",
                             url="https://t.me/{}?start=help".format(context.bot.username),
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴏᴩᴇɴ ʜᴇʀᴇ 👇",
+                            text="ᴏᴩᴇɴ ʜᴇʀᴇ ➟",
                             callback_data="help_back",
                         )
                     ],
@@ -1054,7 +1054,7 @@ def main():
                 caption=f"""
 ✨ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
 ━━━━━━━━━━━━━
-**ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ 𝐃𝐉**
+**ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ [ᴅᴊ](t.me/DJ_X_D)**
 **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{y()}`
 **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ:** `{telever}`
 **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{tlhver}`
