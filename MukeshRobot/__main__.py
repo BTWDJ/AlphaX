@@ -90,7 +90,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ",
+            text="❣ Aᴅᴅ Mᴇ Bᴀʙʏ ❣",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
@@ -102,7 +102,7 @@ buttons = [
         InlineKeyboardButton(text="✨ sᴏᴜʀᴄᴇ ✨", callback_data="source_"),
      ],
      [  
-         InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="mukesh_back"),
+         InlineKeyboardButton(text="ʙᴀᴄᴋ ↻", callback_data="mukesh_back"),
          InlineKeyboardButton(text="🌹 ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ 🌹", url=f"tg://user?id={OWNER_ID}"),
      ],
 
