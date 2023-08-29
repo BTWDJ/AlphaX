@@ -102,7 +102,7 @@ buttons = [
         InlineKeyboardButton(text="🌹 ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ 🌹", url=f"tg://user?id={OWNER_ID}"),
      ],
      [  
-         InlineKeyboardButton(text="▶︎ʙᴀᴄᴋ◀︎", callback_data="mukesh_back"),
+         InlineKeyboardButton(text="♡ ᴜᴘᴅᴀᴛᴇs ♡", url=f"https://t.me/PandaMusicUpdates"),
          InlineKeyboardButton(text="✨ sᴏᴜʀᴄᴇ ✨", callback_data="source_"),
      ],
 
