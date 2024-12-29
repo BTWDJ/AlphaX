@@ -7,7 +7,7 @@ class Config(object):
     API_ID = "" # integer value, dont use ""
     API_HASH = ""
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 2145093972 # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_ID = "" # If you dont know, run the bot and do /id in your private chat with it, also an integer
     
     SUPPORT_CHAT = "the_support_chat"  # Your own group for support, do not add the @
     START_IMG = ""
@@ -22,7 +22,6 @@ class Config(object):
     # Get your API key from https://timezonedb.com/api
 
     # Optional fields
-    CHATBOT_API="" # get it from @FallenChat_Bot using /token
     BL_CHATS = []  # List of groups that you want blacklisted.
     DRAGONS = []  # User id of sudo users
     DEV_USERS = []  # User id of dev users
